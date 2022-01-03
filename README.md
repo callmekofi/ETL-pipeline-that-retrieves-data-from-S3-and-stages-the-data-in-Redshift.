@@ -1,0 +1,1 @@
+# ETL-pipeline-that-retrieves-data-from-S3-and-stages-the-data-in-Redshift.
