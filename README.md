@@ -8,19 +8,19 @@ Files made available to execute this project are:
 - etl.py: This file contains all processes for an ETL procedure for all fact and dim tables considered.
 - dwh.cfg: This file contains information on the data warehouse cluster created, path to the dataset given,iam role credentials and iam user keys.
 
-IMPORTANT PROCESSES
+# IMPORTANT PROCESSES
 - Create resources, IAM role, Redshift cluster and cluster connections using IaC.
 - Create tables in sql_queries.py. Make use of distribution keys for table columns to allow efficient query processing. 
 - Build ETL processes and Pipelines in etl.py
 - Test queries in Redshift.
 
 
-TABLES CREATED:
+# TABLES CREATED:
 - Facts: Songplays = Made up of songplay events for the datasets given to inform business decision.
 - Dim: users = Made up of users registered to the Sparkify app.
        songs = Made up of all available songs in the Sparkify music dB
      artists = Made up of all artists of the songs in the Sparkify misuc dB
         time = Made up of the timestamps of song plays by users of the Sparkify app.
         
-QUERIES:
+# QUERIES:
 All select, join, aggregation and known available postgres queries can be applied on the Redshift cluster.
